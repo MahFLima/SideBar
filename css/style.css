@@ -1,0 +1,81 @@
+.menu-in{
+  height: 100%;
+  background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.head-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar{
+  background-color: var(--light-green);
+  border: none;
+  width: 222px;
+  height: 50px;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.buttons-in{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 0.8rem;
+}
+
+.btn-in{
+  text-decoration: none;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.user-info{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--light-green);
+  gap: 0.5rem;
+}
+
+.user-info img{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 8px 9px;
+}
+
+.user-info span{
+  margin: 12px 0;
+}
+
+.name{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.vet{
+  font-size:12px;
+}
+
+.exit-in{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0.8rem;
+}
+
+.exit-in img{
+  width: 24px;
+  height: 24px;
+}
+
